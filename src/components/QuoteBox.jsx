@@ -13,7 +13,7 @@ const QuoteBox = ({ quote, handleChangeQuote }) => {
         <img src="/boton.svg" alt="" />
       </button>
       <span className="quotebox__author">{author}</span>
-      <img className="quotebox__img" src="/public/images/planet1.svg" alt="" />
+      <img className="quotebox__img" src="../images/planet1.svg" alt="" />
     </article>
   );
 };
